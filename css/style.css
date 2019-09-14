@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    font-family: Tahoma, sans-serif
+}
+
+.main {
+    background: #3F3C3C;
+    padding: 25px 0;
+}
+.main::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+p {
+    line-height: 150%;
+}
+
+.leftbar {
+    width: 19%;
+    float: left;
+    color: #B2ADAD;
+    font-size: 40px;
+    /* padding-left: 20px; */
+    /* margin-left: 20px; */
+    /* margin-right: 1%; */
+    /* background: green; */
+}
+.par a{
+    color: #B2ADAD;
+}
+.par p {
+    padding-left: 80px;
+    margin-top: -10px;
+}
+.rightbar {
+    width: 79%;
+    float: left;
+    font-size: 40px;
+    /* margin-right: 1%; */
+    /* background: yellow; */
+}
+.users {
+    float: left;
+    margin-right: 20px;
+}
+.entities
+{
+    float: left;
+    margin-right: 20px;
+}
+.about
+{
+    float: left;
+}
+
+li {
+   list-style: none; 
+   
+}
+a {
+    text-decoration: none;
+    color: beige;    
+}
+
+li a:hover {
+    color: brown;
+    /* padding-left: 30px; */
+}
+.text {
+   
+    /* padding: 200px 0; */
+    margin-top: 150px;
+}
+.text::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.text-leftbar {
+    width: 17%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 3%;
+   
+    font-size: 40px;
+}
+.text-middle {
+    width: 50%;
+
+    margin-right: 5%;
+    float: left;
+    
+    font-size: 40px;
+}
+.text-rightbar {
+    width: 20%;
+    float: left;
+    
+    font-size: 40px;
+}
+
+.line  {
+    position: fixed;
+    border-top:1px solid black;
+    bottom: 45px;
+    width: 100%;
+}
+.users a img {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+.gabe img {
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+}
+.text-leftbar {
+    margin-top: 80px;
+    /* background: #BDBDBD; */
+}
+.text-rightbar img{
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.author {
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 85%;
+}
+.text-leftbar img {
+    max-width: 600px;
+    max-height: 500px;
+}
+
+                    /* users */
+
+h1{
+    position: absolute;
+    left: 13%;
+    top: 18.6%;
+    font-size: 60px;
+}
+.users-links {
+    position: relative;
+    /* top: 230px; */
+    /* left: 20; */
+}
+.users-links {
+   margin: 300px;
+   line-height: 350%;
+}
+.users-links a {
+    text-decoration: none;
+    color: rgb(39, 49, 39);
+    font-size: 30px;
+}
+.users-links a:hover {
+    padding-left: 20px;
+    /* padding-left: 30px; */
+}
+.gabe ,.zuck, .gates {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    visibility: hidden;
+
+}
+#gabe a:hover .gabe{
+    
+    visibility: visible;
+    
+}
+#mark a:hover .zuck{
+    
+    visibility: visible;
+    
+}
+#bill a:hover .gates{
+    
+    visibility: visible;
+    
+}
+.line{
+    position: absolute;
+    bottom: 45px;
+    border: 1px solid black;
+    max-width: 99.9%;
+}
+                    /* Perfumes */
+
+.parfumes a img{
+    width: 32px;
+    height: 50px;
+}
+/* #versace, #million, #lacoste a img{
+    width: 32px;
+    height: 50px;
+} */
+.photo{
+    position: absolute;
+    right: 12%;
+    top: 12%;
+}
+.userphoto{
+    position: absolute;
+    left: 55%;
+    top: 37%;
+    /* visibility: hidden; */
+}
+
